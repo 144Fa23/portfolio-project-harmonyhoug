@@ -25,6 +25,7 @@ header {
 
 header h1 {
     font-style: italic;
+    background-color: antiquewhite;
 }
 
 /* Style rule for navigation content */
@@ -40,7 +41,7 @@ main {
 
 /* Style rule for footer content */
 footer {
-    color: black;
+    color: darkgray;
     text-align: center;
     font-size: 0.75em;
     padding: 0 1em;
