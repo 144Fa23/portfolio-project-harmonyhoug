@@ -34,14 +34,12 @@ img {
     header img {
         margin: 10px;
         padding: 2%;
-        border-bottom: 1px solid;
     }
 
     /* Style rule for navigation content */
     nav {
         color: darkgray;
         width: 70%;
-        float: right;
         margin: 5em 3em 0 0;
     }
 
@@ -78,10 +76,11 @@ img {
     /* Style rule for main content */
     main {
         background-color: antiquewhite;
-        clear: right;
+        clear: left;
         padding: 2%;
         font-size: 1.15em;
         font-family: 'Patrick Hand SC', cursive;
+        margin: 5em;
     }
 
     /* Style rule for footer content */
@@ -115,20 +114,19 @@ img {
     
     /* Tablet Viewport: Style rule for header */
     header {
-        position: static;
+        position: relative;
         padding-bottom: 2%;
     }
     
     /* Tablet Viewport: Style rules for nav area */
     nav li {
         display: inline-block;
-        border: 1px solid antiquewhite;
     }
     
     /* Tablet Viewport: Style rules for main content area */
     main ul {
         margin: 0 0 4% 10%;
-        clear: right;
+        clear: left;
     }
     
     /* Tablet Viewport: Style rules for footer content */
@@ -160,7 +158,6 @@ img {
     
     /* Desktop Viewport: Style rules for nav area */
     nav {
-        float: right;
         width: 60%;
         margin: auto;
     }
@@ -184,8 +181,9 @@ img {
     
     /* Desktop Viewport: Style rules for main content */
     main {
-        clear: right;
+        clear: left;
         padding: 2%;
+        margin: 5em;
     }
     
     main h3 {
