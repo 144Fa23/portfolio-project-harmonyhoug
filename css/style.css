@@ -39,6 +39,7 @@ img {
     /* Style rule for navigation content */
     nav {
         background-color: antiquewhite;
+        color: darkgray;
         width: 70%;
         float: right;
         margin: 5em 3em 0 0;
@@ -54,11 +55,12 @@ img {
         display: block;
         font-size: 1.5em;
         font-family: 'Patrick Hand SC', cursive;
+        color: darkgray;
     }
 
     nav li a {
         display: block;
-        color: antiquewhite;
+        color: darkgray;
         text-align: center;
         padding: 0.5em 1em;
         text-decoration: none;
@@ -87,7 +89,7 @@ img {
         background-color: antiquewhite;
         text-align: center;
         font-size: 0.75em;
-        padding: 0 1em;
+        color: #fff;
     }
 
     footer p a {
@@ -125,7 +127,20 @@ img {
     
     /* Tablet Viewport: Style rules for main content area */
     main ul {
-        margin: auto;
+        margin: 0 0 4% 10%;
+    }
+    
+    /* Tablet Viewport: Style rules for footer content */
+    footer p {
+        background-color: antiquewhite;
+        text-align: center;
+        font-size: 0.75em;
+        color: #fff;
+    }
+
+    footer p a {
+        color: #fff;
+        text-decoration: none;
     }
 
     #services {
@@ -167,7 +182,7 @@ img {
     
     nav li a:hover {
         color: darkgray;
-        background-color: antiquewhite;
+        background-color: #fff;
     }
     
     /* Desktop Viewport: Style rules for main content */
@@ -180,7 +195,20 @@ img {
     }
     
      main ul {
-        margin: auto;
+        margin: 0 0 4% 10%;
+    }
+    
+    /* Desktop Viewport: Style rules for footer content */
+    footer p {
+        background-color: antiquewhite;
+        text-align: center;
+        font-size: 0.75em;
+        color: #fff;
+    }
+
+    footer p a {
+        color: #fff;
+        text-decoration: none;
     }
 
     #services {
