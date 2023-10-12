@@ -77,6 +77,7 @@ img {
     /* Style rule for main content */
     main {
         background-color: antiquewhite;
+        clear: right;
         padding: 2%;
         font-size: 1.15em;
         font-family: 'Patrick Hand SC', cursive;
@@ -126,6 +127,7 @@ img {
     /* Tablet Viewport: Style rules for main content area */
     main ul {
         margin: 0 0 4% 10%;
+        clear: right;
     }
     
     /* Tablet Viewport: Style rules for footer content */
@@ -181,7 +183,7 @@ img {
     
     /* Desktop Viewport: Style rules for main content */
     main {
-        clear: left;
+        clear: right;
         padding: 2%;
     }
     
