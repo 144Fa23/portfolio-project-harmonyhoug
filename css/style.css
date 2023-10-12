@@ -153,7 +153,7 @@ img {
     /* Desktop Viewport: Style rule for header */
     header {
         width: 25%;
-        text-align: right;
+        float: right;
     }
     
     /* Desktop Viewport: Style rules for nav area */
