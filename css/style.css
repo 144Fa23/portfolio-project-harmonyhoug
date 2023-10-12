@@ -78,6 +78,7 @@ img {
     main {
         background-color: antiquewhite;
         clear: right;
+        float: right;
         padding: 2%;
         font-size: 1.15em;
         font-family: 'Patrick Hand SC', cursive;
@@ -184,6 +185,7 @@ img {
     /* Desktop Viewport: Style rules for main content */
     main {
         clear: right;
+        float: right;
         padding: 2%;
     }
     
