@@ -51,7 +51,7 @@ img {
     }
 
     nav li {
-        display: grid;
+        display: block;
         font-size: 1.5em;
         font-family: 'Patrick Hand SC', cursive;
     }
@@ -83,8 +83,8 @@ img {
     }
 
     /* Style rule for footer content */
-    footer p{
-        background-color: darkgray;
+    footer p {
+        background-color: antiquewhite;
         text-align: center;
         font-size: 0.75em;
         padding: 0 1em;
@@ -104,7 +104,7 @@ img {
     
     /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
     .tablet-desktop {
-        display: grid;
+        display: inline-block;
     }
     
     .mobile {
@@ -119,7 +119,7 @@ img {
     
     /* Tablet Viewport: Style rules for nav area */
     nav li {
-        display: grid;
+        display: inline-block;
         border: 1px solid antiquewhite;
     }
     
@@ -129,7 +129,7 @@ img {
     }
 
     #services {
-        clear: right;
+        clear: left;
     }
 
     #contact {
@@ -166,8 +166,8 @@ img {
     }
     
     nav li a:hover {
-        color: antiquewhite;
-        background-color: darkgray;
+        color: darkgray;
+        background-color: antiquewhite;
     }
     
     /* Desktop Viewport: Style rules for main content */
@@ -184,7 +184,7 @@ img {
     }
 
     #services {
-        clear: right;
+        clear: left;
     }
 
     #contact {
