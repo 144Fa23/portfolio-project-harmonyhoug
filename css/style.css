@@ -114,7 +114,7 @@ img {
     
     /* Tablet Viewport: Style rule for header */
     header {
-        position: relative;
+        position:absolute;
         padding-bottom: 2%;
     }
     
