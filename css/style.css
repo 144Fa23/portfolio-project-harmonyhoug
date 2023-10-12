@@ -80,7 +80,6 @@ img {
         padding: 2%;
         font-size: 1.15em;
         font-family: 'Patrick Hand SC', cursive;
-        margin: 5em;
     }
 
     /* Style rule for footer content */
@@ -153,7 +152,7 @@ img {
     /* Desktop Viewport: Style rule for header */
     header {
         width: 25%;
-        float: right;
+        float: left;
     }
     
     /* Desktop Viewport: Style rules for nav area */
@@ -182,8 +181,7 @@ img {
     /* Desktop Viewport: Style rules for main content */
     main {
         clear: left;
-        padding: 2%;
-        margin: 5em;
+        padding: 20%;
     }
     
     main h3 {
