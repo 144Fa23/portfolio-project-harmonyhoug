@@ -5,44 +5,189 @@
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1 {
+body, header, nav, main, footer, img, ul, h3 {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-/* Style rule for images */
+/* Style rule for body and images */
+body {
+    background-color: antiquewhite;
+}
+
 img {
     max-width: 100%;
     display: block;
 }
 
+/* Style rules for mobile viewport */
+
 /* Style rule for header content */
 header {
-    text-align: center;
-    font-size: 3em;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: antiquewhite;
+    height: 150px;
 }
 
-header h1 {
-    font-style: italic;
-    background-color: antiquewhite;
+header img {
+    margin: 0 auto;
 }
 
 /* Style rule for navigation content */
 nav {
     background-color: antiquewhite;
+    width: 70%;
+    float: right;
+    margin: 5em 3em 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+}
+
+nav li {
+    display: grid;
+    font-size: 1.5em;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+nav li a {
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
 }
 
 /* Style rule for main content */
 main {
+    clear: left;
     padding: 2%;
     background-color: antiquewhite;
+    font-size: 1.25em;
+    font-family: 'Patrick Hand SC', cursive;
 }
 
 /* Style rule for footer content */
-footer {
-    color: darkgray;
+footer p{
+    background-color: darkgray;
     text-align: center;
     font-size: 0.75em;
     padding: 0 1em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.round {
+    border-radius: 5px;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px){
+    
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: grid;
+    }
+    
+    .mobile {
+        display: none;
+    }
+    
+    /* Tablet Viewport: Style rule for header */
+    header {
+        position: static;
+        padding-bottom: 2%;
+    }
+    
+    /* Tablet Viewport: Style rules for nav area */
+    nav li {
+        display: grid;
+        border: 1px solid antiquewhite;
+    }
+    
+    /* Tablet Viewport: Style rules for main content area */
+    main ul {
+        margin: auto;
+    }
+
+    #services {
+        clear: right;
+    }
+
+    #contact {
+        text-align: center;
+    }
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px) {
+    
+    /* Desktop Viewport: Style rule for header */
+    header {
+        width: 25%;
+        float: left;
+    }
+    
+    /* Desktop Viewport: Style rules for nav area */
+    nav {
+        float: right;
+        width: 60%;
+        margin: auto;
+    }
+    
+    nav ul {
+        text-align: center;
+    }
+    
+    nav li {
+        border: none;
+    }
+    
+    nav li a {
+        padding: 0.5em 1em;
+    }
+    
+    nav li a:hover {
+        color: antiquewhite;
+        background-color: darkgray;
+    }
+    
+    /* Desktop Viewport: Style rules for main content */
+    main {
+        clear: left;
+    }
+    
+    main h3 {
+        font-size: 2em;
+    }
+    
+     main ul {
+        margin: auto;
+    }
+
+    #services {
+        clear: right;
+    }
+
+    #contact {
+        text-align: center;
+    }
 }
